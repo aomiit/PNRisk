@@ -1,0 +1,70 @@
+/* pages/VDT/VDT.wxss */
+.body{
+  justify-content: center;
+  margin: auto 3%;
+  text-align: center;
+}
+.result{
+  margin-top: 5em;
+  justify-content: center;
+  margin: auto 3%;
+  text-align: center
+}
+.introduction{
+  position: relative;
+  left: 3%;
+}
+.introduction view{
+  color: black
+}
+.body .grid view view{
+  margin: 3px;
+  height:3em;
+  border-radius: 5px
+}
+.result .grid view view{
+  margin: 3px;
+  height:3em;
+  border-radius: 5px
+}
+.body .grid{
+  margin: 3px;
+  border: 1px solid black;
+  border-radius: 10px
+}
+.result .grid{
+  margin: 3px;
+  border: 1px solid black;
+  border-radius: 10px
+}
+view view{
+  font-size: small;
+  color: purple
+}
+.grid.col-5{
+  display: flex;
+  flex-wrap: nowrap
+}
+text{
+  vertical-align: middle
+}
+button{
+  height: 30px;
+  font-size: small
+}
+input{
+  margin: 3px;
+  height:3em;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px
+}
+.picker{
+  border: 1px solid black;
+  background: white;
+  color: black
+}
+picker{
+  height: 3em
+}

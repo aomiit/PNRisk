@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/Brock/index",
+    "pages/logs/logs",
+    "pages/Herder/index",
+    "pages/VDT/VDT",
+	  "pages/Mayo/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "肺结节风险计算器",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#FF1493",
+    "list": [
+      {
+        "pagePath": "pages/Brock/index",
+        "text": "Brock"
+      },
+      {
+        "pagePath": "pages/Herder/index",
+        "text": "Herder"
+      },
+	  {
+        "pagePath": "pages/Mayo/index",
+        "text": "Mayo"
+      },
+      {
+        "pagePath": "pages/VDT/VDT",
+        "text": "VDT"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
